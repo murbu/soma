@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+header {
+    text-align: left;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: brown;
+    font-weight: bold;
+    margin: 0;
+}
+
+header p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 20px;
+    }
+
+    header p, footer h2 {
+        font-size: 14px;
+    }
+}
+
+.tab-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+.tab-bar li {
+    display: inline;
+}
+
+.tab-bar li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.tab-bar li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.tab-content {
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+/* For mobile responsiveness */
+@media (max-width: 600px) {
+    .tab-bar li {
+        display: block;
+        width: 100%;
+    }
+
+    .tab-bar li a {
+        padding: 10px;
+    }
+}
+
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer h2 {
+    font-size: 20px;
+    margin: 0;
+}
