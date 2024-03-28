@@ -260,6 +260,7 @@ nav ul li a:hover{
 
 .img-text-wrapper:hover .subtitle {
     font-weight: 600;
+    font-size: 15px;
     color: #bf8d4e;
 }
 
